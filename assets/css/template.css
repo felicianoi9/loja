@@ -1,0 +1,177 @@
+body{
+	margin: 0;
+	font-family: arial;
+}
+th{
+	text-align: left;
+}
+.botao {
+	padding: 10px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: blue;
+	color: white;
+	max-width: 70px;
+	margin-bottom: 10px;
+	list-style-type: none;
+	
+}
+
+.botao:hover{
+	background-color: green;
+	list-style-type: none;
+}
+.topo{
+	height: 100px;
+	background-color: white;
+}
+.menu{
+	height: 50px;
+	background-color: #ddd; 
+}
+.menuint{
+	width: 100%;
+	max-width: 800px;
+	margin: auto;
+}
+.menu ul{
+	margin: 0;
+	padding: 0;
+
+}
+.menu li{
+	list-style-type: none;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.menu li:hover{
+	background-color: blue;
+	color: white;
+	border-radius: 10px;
+}
+.menu a{
+	color: #000;
+}
+.container{
+	width: 100%;
+	max-width: 800px;
+	min-height: 300px;
+	
+	margin: auto;
+
+}
+h1{
+	text-transform: uppercase;
+}
+.rodape{
+	height: 100px;
+	background-color: #ddd;
+}
+.produto{
+	width: 180px;
+	height: 230px;
+	margin: 10px;
+	background-color: #eee;
+	float: left;
+	text-align: center;
+}
+
+.produto_foto{
+	height: 300px;
+	width: 300px;
+	background-color: #EEE;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.produto{
+	width: 180px;
+	height: 230px;
+	margin: 5px;
+	float: left;
+	text-align: center;
+	
+	border-color: #DDD;
+
+	
+}
+.produto img{
+	padding-bottom: 5px;
+	border: 0;
+}
+a .produto{
+
+	color:black;
+	
+	border:1px solid #EEE;
+}
+a:hover .produto{
+	
+	border:1px solid #CCC;
+}
+
+.produto_info{
+	float: left;
+	margin-left: 20px;
+}
+.contato input[type=text],
+.contato input[type=email],
+.contato textarea{
+	width: 400px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	font-size: 13px;
+}
+.contato textarea{
+	height: 200px;
+}
+.topo .carrinho{
+	margin: 0;
+	height: 50px;
+	width: 80px;
+	float: right;
+	text-align: right;
+	background-color: blue;
+	color: white;
+	padding-top: 1px;
+	padding-right: 22px;
+	border-radius: 10px;
+	padding-bottom: 0;
+	margin-right: 80px;
+
+}
+
+a:hover .carrinho {
+	color: white;
+	background-color: green;
+	cursor: pointer;
+
+
+}
+.erro{
+	border-radius: 10px;
+	background-color: #eee;
+	text-align: center;
+	
+	height: 50px;
+	line-height: 50px;
+	
+	border: 2px solid #000;
+	margin-bottom: 20px;
+
+}
+.pedido_produto{
+	width: 100px;
+	height: 180px;
+	padding: 15px;
+	float: left;
+	border: 2px solid #000;
+	margin-right: 10px;
+
+}
